@@ -1,4 +1,4 @@
 <map id="rs::scriptobject::ScriptObjectJsonSource" name="rs::scriptobject::ScriptObjectJsonSource">
-<area shape="rect" id="node2" href="$classrs_1_1scriptobject_1_1ScriptObjectSource.html" title="rs::scriptobject::Script\lObjectSource" alt="" coords="5,95,156,136"/>
+<area shape="rect" id="node2" href="$classrs_1_1scriptobject_1_1ScriptObjectSource.html" title="An abstract (pure&#45;virtual) type which acts as the base class for scriptable object sources..." alt="" coords="5,95,156,136"/>
 <area shape="rect" id="node3" href="$classrs_1_1scriptobject_1_1ScriptObjectDefinition.html" title="An abstract type which describes the object definition (metadata) of a scriptable object..." alt="" coords="5,5,156,47"/>
 </map>

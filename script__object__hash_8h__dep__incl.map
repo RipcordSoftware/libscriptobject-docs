@@ -1,16 +1,16 @@
 <map id="src/libscriptobject/script_object_hash.h" name="src/libscriptobject/script_object_hash.h">
 <area shape="rect" id="node2" href="$script__object__definition_8h.html" title="Declares ScriptObjectDefinition the abstract class used to query object metadata. ..." alt="" coords="701,95,871,136"/>
 <area shape="rect" id="node6" href="$script__object_8h.html" title="Declares ScriptObject and associated helper types. " alt="" coords="544,295,668,337"/>
-<area shape="rect" id="node21" href="$script__array_8h_source.html" title="src/libscriptobject\l/script_array.h" alt="" coords="1009,295,1133,337"/>
+<area shape="rect" id="node21" href="$script__array_8h.html" title="Declares the ScriptArray class. " alt="" coords="1009,295,1133,337"/>
 <area shape="rect" id="node3" href="$script__object__keys_8h_source.html" title="src/libscriptobject\l/script_object_keys.h" alt="" coords="602,191,749,233"/>
 <area shape="rect" id="node4" href="$script__object__keys__factory_8h_source.html" title="src/libscriptobject\l/script_object_keys\l_factory.h" alt="" coords="692,288,827,344"/>
-<area shape="rect" id="node7" href="$script__object__source_8h_source.html" title="src/libscriptobject\l/script_object_source.h" alt="" coords="415,392,573,433"/>
+<area shape="rect" id="node7" href="$script__object__source_8h.html" title="Declares the ScriptObjectSource class. " alt="" coords="415,392,573,433"/>
 <area shape="rect" id="node19" href="$script__object__keys__cache_8h_source.html" title="src/libscriptobject\l/script_object_keys\l_cache.h" alt="" coords="851,288,985,344"/>
 <area shape="rect" id="node20" href="$script__object__vector__definition_8h.html" title="Declares VectorKeysDefn a helper class used by unit tests. " alt="" coords="824,184,967,240"/>
-<area shape="rect" id="node5" href="$libscriptobject_8h_source.html" title="src/libscriptobject\l/libscriptobject.h" alt="" coords="716,593,840,634"/>
+<area shape="rect" id="node5" href="$libscriptobject_8h.html" title="The main header file for clients wishing to utilize libscriptobject. " alt="" coords="716,593,840,634"/>
 <area shape="rect" id="node8" href="$script__object__factory_8h_source.html" title="src/libscriptobject\l/script_object_factory.h" alt="" coords="531,489,689,530"/>
-<area shape="rect" id="node15" href="$script__array__source_8h_source.html" title="src/libscriptobject\l/script_array_source.h" alt="" coords="889,392,1040,433"/>
-<area shape="rect" id="node9" href="$script__object__vector__source_8h_source.html" title="src/libscriptobject\l/script_object_vector\l_source.h" alt="" coords="364,481,507,537"/>
+<area shape="rect" id="node15" href="$script__array__source_8h.html" title="Declares the ScriptArraySource class. " alt="" coords="889,392,1040,433"/>
+<area shape="rect" id="node9" href="$script__object__vector__source_8h.html" title="Declares VectorValue and ScriptObjectVectorSource, utility classes which make it easy to create objec..." alt="" coords="364,481,507,537"/>
 <area shape="rect" id="node11" href="$script__object__json__source_8h_source.html" title="src/libscriptobject\l_gason/script_object\l_json_source.h" alt="" coords="9,481,152,537"/>
 <area shape="rect" id="node13" href="$script__object__msgpack__source_8h_source.html" title="src/libscriptobject\l_msgpack/script_object\l_msgpack_source.h" alt="" coords="179,481,339,537"/>
 <area shape="rect" id="node10" href="$script__array__vector__source_8h_source.html" title="src/libscriptobject\l/script_array_vector\l_source.h" alt="" coords="461,585,599,641"/>

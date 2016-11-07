@@ -1,14 +1,14 @@
 <map id="src/libscriptobject/script_object_definition.h" name="src/libscriptobject/script_object_definition.h">
 <area shape="rect" id="node2" href="$script__object__keys_8h_source.html" title="src/libscriptobject\l/script_object_keys.h" alt="" coords="536,102,683,143"/>
 <area shape="rect" id="node3" href="$script__object__keys__factory_8h_source.html" title="src/libscriptobject\l/script_object_keys\l_factory.h" alt="" coords="367,199,502,255"/>
-<area shape="rect" id="node6" href="$script__object__source_8h_source.html" title="src/libscriptobject\l/script_object_source.h" alt="" coords="768,303,925,344"/>
+<area shape="rect" id="node6" href="$script__object__source_8h.html" title="Declares the ScriptObjectSource class. " alt="" coords="768,303,925,344"/>
 <area shape="rect" id="node18" href="$script__object__keys__cache_8h_source.html" title="src/libscriptobject\l/script_object_keys\l_cache.h" alt="" coords="674,199,809,255"/>
 <area shape="rect" id="node19" href="$script__object__vector__definition_8h.html" title="Declares VectorKeysDefn a helper class used by unit tests. " alt="" coords="885,95,1027,151"/>
 <area shape="rect" id="node5" href="$script__object_8h.html" title="Declares ScriptObject and associated helper types. " alt="" coords="526,206,650,247"/>
-<area shape="rect" id="node4" href="$libscriptobject_8h_source.html" title="src/libscriptobject\l/libscriptobject.h" alt="" coords="41,503,165,545"/>
+<area shape="rect" id="node4" href="$libscriptobject_8h.html" title="The main header file for clients wishing to utilize libscriptobject. " alt="" coords="41,503,165,545"/>
 <area shape="rect" id="node7" href="$script__object__factory_8h_source.html" title="src/libscriptobject\l/script_object_factory.h" alt="" coords="593,399,751,441"/>
-<area shape="rect" id="node14" href="$script__array__source_8h_source.html" title="src/libscriptobject\l/script_array_source.h" alt="" coords="301,303,451,344"/>
-<area shape="rect" id="node8" href="$script__object__vector__source_8h_source.html" title="src/libscriptobject\l/script_object_vector\l_source.h" alt="" coords="775,392,918,448"/>
+<area shape="rect" id="node14" href="$script__array__source_8h.html" title="Declares the ScriptArraySource class. " alt="" coords="301,303,451,344"/>
+<area shape="rect" id="node8" href="$script__object__vector__source_8h.html" title="Declares VectorValue and ScriptObjectVectorSource, utility classes which make it easy to create objec..." alt="" coords="775,392,918,448"/>
 <area shape="rect" id="node10" href="$script__object__json__source_8h_source.html" title="src/libscriptobject\l_gason/script_object\l_json_source.h" alt="" coords="942,392,1085,448"/>
 <area shape="rect" id="node12" href="$script__object__msgpack__source_8h_source.html" title="src/libscriptobject\l_msgpack/script_object\l_msgpack_source.h" alt="" coords="1112,392,1272,448"/>
 <area shape="rect" id="node9" href="$script__array__vector__source_8h_source.html" title="src/libscriptobject\l/script_array_vector\l_source.h" alt="" coords="542,496,679,552"/>

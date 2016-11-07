@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classrs_1_1scriptobject_1_1ScriptItemPtrBase.html" title="rs::scriptobject::Script\lItemPtrBase\&lt; T, AllocT \&gt;" alt="" coords="5,49,177,90"/>
-<area shape="rect" id="node2" href="$classrs_1_1scriptobject_1_1ScriptItemPtrCountedBase.html" title="rs::scriptobject::Script\lItemPtrCountedBase\&lt; T,\l AllocT \&gt;" alt="" coords="225,5,393,61"/>
+<area shape="rect" id="node1" href="$classrs_1_1scriptobject_1_1ScriptItemPtrBase.html" title="A derivable template type containing methods to operate on reference counted types. " alt="" coords="5,49,177,90"/>
+<area shape="rect" id="node2" href="$classrs_1_1scriptobject_1_1ScriptItemPtrCountedBase.html" title="A derivable template type containing a thread&#45;safe reference counter. " alt="" coords="225,5,393,61"/>
 <area shape="rect" id="node3" href="$classrs_1_1scriptobject_1_1ScriptObject.html" title="A type which describes a scriptable object. " alt="" coords="234,85,385,126"/>
 </map>

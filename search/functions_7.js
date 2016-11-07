@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['type',['type',['../classrs_1_1scriptobject_1_1ScriptObjectDefinition.html#a711d71272bd2eb31b0e2088bc103441a',1,'rs::scriptobject::ScriptObjectDefinition::type()'],['../classrs_1_1scriptobject_1_1test_1_1VectorKeysDefn.html#a9d408ca88d2d12e4a00888fc7adc5df3',1,'rs::scriptobject::test::VectorKeysDefn::type()'],['../classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#a7a45b6b805083b4f8ac2385ff827cf96',1,'rs::scriptobject::utils::ScriptObjectVectorSource::type()'],['../classrs_1_1scriptobject_1_1ScriptObjectJsonSource.html#a12db2c264582990c31bebea4365e4e93',1,'rs::scriptobject::ScriptObjectJsonSource::type()'],['../classrs_1_1scriptobject_1_1ScriptObjectMsgpackSource.html#ab3a827c5aaa3e5e71f2b10e6a97a8137',1,'rs::scriptobject::ScriptObjectMsgpackSource::type()']]]
+  ['operator_21',['operator!',['../classrs_1_1scriptobject_1_1ScriptItemPtr.html#a025a4d16a184c97186836885aaa7bcfa',1,'rs::scriptobject::ScriptItemPtr']]],
+  ['operator_2a',['operator*',['../classrs_1_1scriptobject_1_1ScriptItemPtr.html#a39d74d4b6bcdf831d275441083a8ba74',1,'rs::scriptobject::ScriptItemPtr']]],
+  ['operator_2d_3e',['operator-&gt;',['../classrs_1_1scriptobject_1_1ScriptItemPtr.html#a75e4b1dc33503e2d9c22c0438b637480',1,'rs::scriptobject::ScriptItemPtr']]],
+  ['operator_3d',['operator=',['../classrs_1_1scriptobject_1_1ScriptItemPtr.html#a94047d41b3ca55fc659670055c9df184',1,'rs::scriptobject::ScriptItemPtr::operator=(ScriptItemPtr&lt; T &gt; &amp;&amp;rhs) noexcept'],['../classrs_1_1scriptobject_1_1ScriptItemPtr.html#a81e4e14a9428cb1cd23c5172c92e8aa1',1,'rs::scriptobject::ScriptItemPtr::operator=(const ScriptItemPtr&lt; T &gt; &amp;rhs) noexcept']]]
 ];

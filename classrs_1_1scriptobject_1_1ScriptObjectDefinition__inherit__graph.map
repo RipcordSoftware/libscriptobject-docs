@@ -1,7 +1,7 @@
 <map id="rs::scriptobject::ScriptObjectDefinition" name="rs::scriptobject::ScriptObjectDefinition">
-<area shape="rect" id="node2" href="$classrs_1_1scriptobject_1_1ScriptObjectSource.html" title="rs::scriptobject::Script\lObjectSource" alt="" coords="204,71,355,112"/>
+<area shape="rect" id="node2" href="$classrs_1_1scriptobject_1_1ScriptObjectSource.html" title="An abstract (pure&#45;virtual) type which acts as the base class for scriptable object sources..." alt="" coords="204,71,355,112"/>
 <area shape="rect" id="node6" href="$classrs_1_1scriptobject_1_1test_1_1VectorKeysDefn.html" title="rs::scriptobject::test\l::VectorKeysDefn" alt="" coords="210,136,349,177"/>
 <area shape="rect" id="node3" href="$classrs_1_1scriptobject_1_1ScriptObjectJsonSource.html" title="rs::scriptobject::Script\lObjectJsonSource" alt="" coords="418,5,569,47"/>
 <area shape="rect" id="node4" href="$classrs_1_1scriptobject_1_1ScriptObjectMsgpackSource.html" title="rs::scriptobject::Script\lObjectMsgpackSource" alt="" coords="416,71,571,112"/>
-<area shape="rect" id="node5" href="$classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html" title="rs::scriptobject::utils\l::ScriptObjectVectorSource" alt="" coords="403,136,584,177"/>
+<area shape="rect" id="node5" href="$classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html" title="A type representing an object source stored in a vector. " alt="" coords="403,136,584,177"/>
 </map>

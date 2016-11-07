@@ -1,9 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classrs_1_1scriptobject_1_1ScriptObjectException.html" title="The base exception type for libscriptobject. " alt="" coords="180,103,331,144"/>
-<area shape="rect" id="node7" href="$classrs_1_1scriptobject_1_1ScriptObjectJsonSourceParseException.html" title="rs::scriptobject::Script\lObjectJsonSourceParseException" alt="" coords="145,168,366,209"/>
-<area shape="rect" id="node8" href="$classrs_1_1scriptobject_1_1ScriptObjectMsgpackSourceParseException.html" title="rs::scriptobject::Script\lObjectMsgpackSourceParseException" alt="" coords="132,233,379,275"/>
-<area shape="rect" id="node3" href="$classrs_1_1scriptobject_1_1TypeCastException.html" title="An exception type thrown when an invalid type cast has been requested. " alt="" coords="430,5,603,47"/>
-<area shape="rect" id="node4" href="$classrs_1_1scriptobject_1_1UnknownScriptArrayIndexException.html" title="An exception type thrown when an unknown index (i.e. " alt="" coords="428,71,605,112"/>
-<area shape="rect" id="node5" href="$classrs_1_1scriptobject_1_1UnknownScriptObjectFieldException.html" title="An exception type thrown when an unknown field has been requested from a script object instance..." alt="" coords="427,136,607,177"/>
-<area shape="rect" id="node6" href="$classrs_1_1scriptobject_1_1UnknownSourceFieldTypeException.html" title="An exception type thrown when an unknown source field has been requested. " alt="" coords="427,201,606,243"/>
+<area shape="rect" id="node2" href="$classrs_1_1scriptobject_1_1ScriptObjectException.html" title="The base exception type for libscriptobject. " alt="" coords="132,169,283,211"/>
+<area shape="rect" id="node3" href="$classrs_1_1scriptobject_1_1ScriptObjectJsonSourceParseException.html" title="rs::scriptobject::Script\lObjectJsonSourceParseException" alt="" coords="343,5,565,47"/>
+<area shape="rect" id="node4" href="$classrs_1_1scriptobject_1_1ScriptObjectMsgpackSourceParseException.html" title="rs::scriptobject::Script\lObjectMsgpackSourceParseException" alt="" coords="331,71,577,112"/>
+<area shape="rect" id="node5" href="$classrs_1_1scriptobject_1_1TypeCastException.html" title="An exception type thrown when an invalid type cast has been requested. " alt="" coords="367,136,541,177"/>
+<area shape="rect" id="node6" href="$classrs_1_1scriptobject_1_1UnknownScriptArrayIndexException.html" title="An exception type thrown when an unknown index (i.e. " alt="" coords="365,201,543,243"/>
+<area shape="rect" id="node7" href="$classrs_1_1scriptobject_1_1UnknownScriptObjectFieldException.html" title="An exception type thrown when an unknown field has been requested from a script object instance..." alt="" coords="364,267,544,308"/>
+<area shape="rect" id="node8" href="$classrs_1_1scriptobject_1_1UnknownSourceFieldTypeException.html" title="An exception type thrown when an unknown source field has been requested. " alt="" coords="365,332,543,373"/>
 </map>

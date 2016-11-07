@@ -73,7 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Modules</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Modules</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -84,7 +84,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="namespacers.html">rs</a></li><li class="navelem"><a class="el" href="namespacers_1_1scriptobject.html">scriptobject</a></li><li class="navelem"><b>utils</b></li><li class="navelem"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html">ScriptObjectVectorSource</a></li>  </ul>
+<li class="navelem"><a class="el" href="namespacers.html">rs</a></li><li class="navelem"><a class="el" href="namespacers_1_1scriptobject.html">scriptobject</a></li><li class="navelem"><a class="el" href="namespacers_1_1scriptobject_1_1utils.html">utils</a></li><li class="navelem"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html">ScriptObjectVectorSource</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -95,25 +95,30 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">rs::scriptobject::utils::ScriptObjectVectorSource Class Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A type representing an object source stored in a vector.  
+ <a href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="script__object__vector__source_8h_source.html">script_object_vector_source.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for rs::scriptobject::utils::ScriptObjectVectorSource:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource__inherit__graph.png" border="0" usemap="#rs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource_inherit__map" alt="Inheritance graph"/></div>
 <map name="rs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource_inherit__map" id="rs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource_inherit__map">
-<area shape="rect" id="node2" href="classrs_1_1scriptobject_1_1ScriptObjectSource.html" title="rs::scriptobject::Script\lObjectSource" alt="" coords="21,95,171,136"/><area shape="rect" id="node3" href="classrs_1_1scriptobject_1_1ScriptObjectDefinition.html" title="An abstract type which describes the object definition (metadata) of a scriptable object..." alt="" coords="21,5,171,47"/></map>
+<area shape="rect" id="node2" href="classrs_1_1scriptobject_1_1ScriptObjectSource.html" title="An abstract (pure&#45;virtual) type which acts as the base class for scriptable object sources..." alt="" coords="21,95,171,136"/><area shape="rect" id="node3" href="classrs_1_1scriptobject_1_1ScriptObjectDefinition.html" title="An abstract type which describes the object definition (metadata) of a scriptable object..." alt="" coords="21,5,171,47"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for rs::scriptobject::utils::ScriptObjectVectorSource:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource__coll__graph.png" border="0" usemap="#rs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource_coll__map" alt="Collaboration graph"/></div>
 <map name="rs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource_coll__map" id="rs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource_coll__map">
-<area shape="rect" id="node2" href="classrs_1_1scriptobject_1_1ScriptObjectSource.html" title="rs::scriptobject::Script\lObjectSource" alt="" coords="21,95,171,136"/><area shape="rect" id="node3" href="classrs_1_1scriptobject_1_1ScriptObjectDefinition.html" title="An abstract type which describes the object definition (metadata) of a scriptable object..." alt="" coords="21,5,171,47"/></map>
+<area shape="rect" id="node2" href="classrs_1_1scriptobject_1_1ScriptObjectSource.html" title="An abstract (pure&#45;virtual) type which acts as the base class for scriptable object sources..." alt="" coords="21,95,171,136"/><area shape="rect" id="node3" href="classrs_1_1scriptobject_1_1ScriptObjectDefinition.html" title="An abstract type which describes the object definition (metadata) of a scriptable object..." alt="" coords="21,5,171,47"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a24352144efc712afe4edc8f7bc49b61b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a24352144efc712afe4edc8f7bc49b61b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ScriptObjectVectorSource</b> (const ObjectVector &amp;source)</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ScriptObjectVectorSource</b> (const <a class="el" href="namespacers_1_1scriptobject_1_1utils.html#a08899c3f9ce3230d82e037aa0ba0a63b">ObjectVector</a> &amp;source)</td></tr>
 <tr class="separator:a24352144efc712afe4edc8f7bc49b61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab219aab3f6fbedb0bdd9dd89a4d58d92"><td class="memItemLeft" align="right" valign="top">virtual unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#ab219aab3f6fbedb0bdd9dd89a4d58d92">count</a> () const override</td></tr>
 <tr class="memdesc:ab219aab3f6fbedb0bdd9dd89a4d58d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a count of the number of fields in the object definition.  <a href="#ab219aab3f6fbedb0bdd9dd89a4d58d92">More...</a><br /></td></tr>
@@ -128,42 +133,44 @@ Public Member Functions</h2></td></tr>
 <a class="el" href="namespacers_1_1scriptobject.html#ae368000845c2e42d90c442394d02fafa">rs::scriptobject::ScriptObjectType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#a7a45b6b805083b4f8ac2385ff827cf96">type</a> (int index) const override</td></tr>
 <tr class="memdesc:a7a45b6b805083b4f8ac2385ff827cf96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the type of the field at the specified index.  <a href="#a7a45b6b805083b4f8ac2385ff827cf96">More...</a><br /></td></tr>
 <tr class="separator:a7a45b6b805083b4f8ac2385ff827cf96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdf5a5e94e251bbfc21e15a97cb61118"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acdf5a5e94e251bbfc21e15a97cb61118"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>getBoolean</b> (int index) const override</td></tr>
+<tr class="memitem:acdf5a5e94e251bbfc21e15a97cb61118"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#acdf5a5e94e251bbfc21e15a97cb61118">getBoolean</a> (int index) const override</td></tr>
+<tr class="memdesc:acdf5a5e94e251bbfc21e15a97cb61118"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the value as a boolean at the specified index in the object source.  <a href="#acdf5a5e94e251bbfc21e15a97cb61118">More...</a><br /></td></tr>
 <tr class="separator:acdf5a5e94e251bbfc21e15a97cb61118"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a1a291472e8faf8e8be685ecf5a08e2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a1a291472e8faf8e8be685ecf5a08e2"></a>
-virtual std::int32_t&#160;</td><td class="memItemRight" valign="bottom"><b>getInt32</b> (int index) const override</td></tr>
+<tr class="memitem:a9a1a291472e8faf8e8be685ecf5a08e2"><td class="memItemLeft" align="right" valign="top">virtual std::int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#a9a1a291472e8faf8e8be685ecf5a08e2">getInt32</a> (int index) const override</td></tr>
+<tr class="memdesc:a9a1a291472e8faf8e8be685ecf5a08e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the value as an int32_t at the specified index in the object source.  <a href="#a9a1a291472e8faf8e8be685ecf5a08e2">More...</a><br /></td></tr>
 <tr class="separator:a9a1a291472e8faf8e8be685ecf5a08e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35f39934617441136f92d65582882a26"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a35f39934617441136f92d65582882a26"></a>
-virtual std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><b>getUInt32</b> (int index) const override</td></tr>
+<tr class="memitem:a35f39934617441136f92d65582882a26"><td class="memItemLeft" align="right" valign="top">virtual std::uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#a35f39934617441136f92d65582882a26">getUInt32</a> (int index) const override</td></tr>
+<tr class="memdesc:a35f39934617441136f92d65582882a26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the value as a uint32_t at the specified index in the object source.  <a href="#a35f39934617441136f92d65582882a26">More...</a><br /></td></tr>
 <tr class="separator:a35f39934617441136f92d65582882a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bf7ff2449ca171e5ab25bac17fe4359"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7bf7ff2449ca171e5ab25bac17fe4359"></a>
-virtual std::int64_t&#160;</td><td class="memItemRight" valign="bottom"><b>getInt64</b> (int index) const override</td></tr>
+<tr class="memitem:a7bf7ff2449ca171e5ab25bac17fe4359"><td class="memItemLeft" align="right" valign="top">virtual std::int64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#a7bf7ff2449ca171e5ab25bac17fe4359">getInt64</a> (int index) const override</td></tr>
+<tr class="memdesc:a7bf7ff2449ca171e5ab25bac17fe4359"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the value as an int64_t at the specified index in the object source.  <a href="#a7bf7ff2449ca171e5ab25bac17fe4359">More...</a><br /></td></tr>
 <tr class="separator:a7bf7ff2449ca171e5ab25bac17fe4359"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a627beb249eb1457e24509b118e231005"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a627beb249eb1457e24509b118e231005"></a>
-virtual std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>getUInt64</b> (int index) const override</td></tr>
+<tr class="memitem:a627beb249eb1457e24509b118e231005"><td class="memItemLeft" align="right" valign="top">virtual std::uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#a627beb249eb1457e24509b118e231005">getUInt64</a> (int index) const override</td></tr>
+<tr class="memdesc:a627beb249eb1457e24509b118e231005"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the value as a uint64_t at the specified index in the object source.  <a href="#a627beb249eb1457e24509b118e231005">More...</a><br /></td></tr>
 <tr class="separator:a627beb249eb1457e24509b118e231005"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addf4011afab3b08920eb1f7119aafda3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="addf4011afab3b08920eb1f7119aafda3"></a>
-virtual double&#160;</td><td class="memItemRight" valign="bottom"><b>getDouble</b> (int index) const override</td></tr>
+<tr class="memitem:addf4011afab3b08920eb1f7119aafda3"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#addf4011afab3b08920eb1f7119aafda3">getDouble</a> (int index) const override</td></tr>
+<tr class="memdesc:addf4011afab3b08920eb1f7119aafda3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the value as a double at the specified index in the object source.  <a href="#addf4011afab3b08920eb1f7119aafda3">More...</a><br /></td></tr>
 <tr class="separator:addf4011afab3b08920eb1f7119aafda3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a53d389e1b4ef9b6620f76c7e1946a3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4a53d389e1b4ef9b6620f76c7e1946a3"></a>
-virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><b>getString</b> (int index) const override</td></tr>
+<tr class="memitem:a4a53d389e1b4ef9b6620f76c7e1946a3"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#a4a53d389e1b4ef9b6620f76c7e1946a3">getString</a> (int index) const override</td></tr>
+<tr class="memdesc:a4a53d389e1b4ef9b6620f76c7e1946a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the string at the specified index in the object source.  <a href="#a4a53d389e1b4ef9b6620f76c7e1946a3">More...</a><br /></td></tr>
 <tr class="separator:a4a53d389e1b4ef9b6620f76c7e1946a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76c1c688e8610e6cc646d5cdcaa273ae"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a76c1c688e8610e6cc646d5cdcaa273ae"></a>
-virtual int&#160;</td><td class="memItemRight" valign="bottom"><b>getStringLength</b> (int index) const override</td></tr>
+<tr class="memitem:a76c1c688e8610e6cc646d5cdcaa273ae"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#a76c1c688e8610e6cc646d5cdcaa273ae">getStringLength</a> (int index) const override</td></tr>
+<tr class="memdesc:a76c1c688e8610e6cc646d5cdcaa273ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the length of the string at the specified index in the object source.  <a href="#a76c1c688e8610e6cc646d5cdcaa273ae">More...</a><br /></td></tr>
 <tr class="separator:a76c1c688e8610e6cc646d5cdcaa273ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee05f1e460e0dd888bc5d05ef95aea9d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aee05f1e460e0dd888bc5d05ef95aea9d"></a>
-virtual const <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptObjectPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getObject</b> (int index) const override</td></tr>
+<tr class="memitem:aee05f1e460e0dd888bc5d05ef95aea9d"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptObjectPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#aee05f1e460e0dd888bc5d05ef95aea9d">getObject</a> (int index) const override</td></tr>
+<tr class="memdesc:aee05f1e460e0dd888bc5d05ef95aea9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the object at the specified index in the array in the object source.  <a href="#aee05f1e460e0dd888bc5d05ef95aea9d">More...</a><br /></td></tr>
 <tr class="separator:aee05f1e460e0dd888bc5d05ef95aea9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a2c2211c05e3461ff1bff777dc2c6e2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a2c2211c05e3461ff1bff777dc2c6e2"></a>
-virtual const <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptArrayPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getArray</b> (int index) const override</td></tr>
+<tr class="memitem:a5a2c2211c05e3461ff1bff777dc2c6e2"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptArrayPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#a5a2c2211c05e3461ff1bff777dc2c6e2">getArray</a> (int index) const override</td></tr>
+<tr class="memdesc:a5a2c2211c05e3461ff1bff777dc2c6e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the child array at the specified index in the source object.  <a href="#a5a2c2211c05e3461ff1bff777dc2c6e2">More...</a><br /></td></tr>
 <tr class="separator:a5a2c2211c05e3461ff1bff777dc2c6e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classrs_1_1scriptobject_1_1ScriptObjectDefinition"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classrs_1_1scriptobject_1_1ScriptObjectDefinition')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectDefinition.html">rs::scriptobject::ScriptObjectDefinition</a></td></tr>
 <tr class="memitem:a8480ad68e659c19efc8800606622204f inherit pub_methods_classrs_1_1scriptobject_1_1ScriptObjectDefinition"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectDefinition.html#a8480ad68e659c19efc8800606622204f">CalculateHash</a> (<a class="el" href="namespacers_1_1scriptobject.html#a00f97bdb4942839005d7a4dc49c935fc">ScriptObjectHash</a> digest) const </td></tr>
 <tr class="memdesc:a8480ad68e659c19efc8800606622204f inherit pub_methods_classrs_1_1scriptobject_1_1ScriptObjectDefinition"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates a digest (hash) based on the field names and types of the object definition.  <a href="#a8480ad68e659c19efc8800606622204f">More...</a><br /></td></tr>
 <tr class="separator:a8480ad68e659c19efc8800606622204f inherit pub_methods_classrs_1_1scriptobject_1_1ScriptObjectDefinition"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A type representing an object source stored in a vector. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="ab219aab3f6fbedb0bdd9dd89a4d58d92"></a>
 <div class="memitem">
 <div class="memproto">
@@ -189,6 +196,356 @@ virtual const <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html"
 <dl class="section return"><dt>Returns</dt><dd>The number of fields in the object definition </dd></dl>
 
 <p>Implements <a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectDefinition.html#aa79adcbcab949269e491d53062c84a4e">rs::scriptobject::ScriptObjectDefinition</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5a2c2211c05e3461ff1bff777dc2c6e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptArrayPtr</a> rs::scriptobject::utils::ScriptObjectVectorSource::getArray </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the child array at the specified index in the source object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index in the source object </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The child array instance from the specified index </dd></dl>
+
+<p>Implements <a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectSource.html#a0aa672f36586d4a51c45e0f0f543eee9">rs::scriptobject::ScriptObjectSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acdf5a5e94e251bbfc21e15a97cb61118"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool rs::scriptobject::utils::ScriptObjectVectorSource::getBoolean </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the value as a boolean at the specified index in the object source. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index in the source </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value from the specified index </dd></dl>
+
+<p>Implements <a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectSource.html#adeb30d2677a9041a2b5c7d502ea8cb18">rs::scriptobject::ScriptObjectSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="addf4011afab3b08920eb1f7119aafda3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual double rs::scriptobject::utils::ScriptObjectVectorSource::getDouble </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the value as a double at the specified index in the object source. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index in the source </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value from the specified index </dd></dl>
+
+<p>Implements <a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectSource.html#a95d1de481261b343245a715acb21a9e3">rs::scriptobject::ScriptObjectSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9a1a291472e8faf8e8be685ecf5a08e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::int32_t rs::scriptobject::utils::ScriptObjectVectorSource::getInt32 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the value as an int32_t at the specified index in the object source. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index in the source </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value from the specified index </dd></dl>
+
+<p>Implements <a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectSource.html#a9e2e570f8a4d45a65b1811227ac4bd2a">rs::scriptobject::ScriptObjectSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7bf7ff2449ca171e5ab25bac17fe4359"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::int64_t rs::scriptobject::utils::ScriptObjectVectorSource::getInt64 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the value as an int64_t at the specified index in the object source. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index in the source </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value from the specified index </dd></dl>
+
+<p>Implements <a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectSource.html#a27a1206efc1f3bc1cdf60562c7d578b7">rs::scriptobject::ScriptObjectSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aee05f1e460e0dd888bc5d05ef95aea9d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptObjectPtr</a> rs::scriptobject::utils::ScriptObjectVectorSource::getObject </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the object at the specified index in the array in the object source. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index in the source </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The object instance from the specified index </dd></dl>
+
+<p>Implements <a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectSource.html#afeab546384615486395ae814ee9573ff">rs::scriptobject::ScriptObjectSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4a53d389e1b4ef9b6620f76c7e1946a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const char* rs::scriptobject::utils::ScriptObjectVectorSource::getString </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the string at the specified index in the object source. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index in the source </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the string entry in the source </dd></dl>
+
+<p>Implements <a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectSource.html#aade5d29d57c080db7c6a1b1ee3825bb1">rs::scriptobject::ScriptObjectSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a76c1c688e8610e6cc646d5cdcaa273ae"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int rs::scriptobject::utils::ScriptObjectVectorSource::getStringLength </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the length of the string at the specified index in the object source. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index in the source </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The length of the string at the specified index </dd></dl>
+
+<p>Implements <a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectSource.html#a209f3549ab28387a201815ac465e1463">rs::scriptobject::ScriptObjectSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a35f39934617441136f92d65582882a26"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::uint32_t rs::scriptobject::utils::ScriptObjectVectorSource::getUInt32 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the value as a uint32_t at the specified index in the object source. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index in the source </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value from the specified index </dd></dl>
+
+<p>Implements <a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectSource.html#a0591d45b29ca49f2dbeff7d40fbe5b5a">rs::scriptobject::ScriptObjectSource</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a627beb249eb1457e24509b118e231005"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::uint64_t rs::scriptobject::utils::ScriptObjectVectorSource::getUInt64 </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the value as a uint64_t at the specified index in the object source. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index in the array </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The value from the specified index </dd></dl>
+
+<p>Implements <a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectSource.html#ad9c9608cec90c7f6833943177e966ccf">rs::scriptobject::ScriptObjectSource</a>.</p>
 
 </div>
 </div>
@@ -304,7 +661,7 @@ virtual const <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html"
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 4 2016 17:51:58 for libscriptobject by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 7 2016 11:25:49 for libscriptobject by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

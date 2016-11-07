@@ -73,7 +73,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Modules</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Friends</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(10)"><span class="SelectionMark">&#160;</span>Modules</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -97,6 +97,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">rs::scriptobject::ScriptItemPtr&lt; T &gt; Class Template Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A (partially) thread-safe reference counted pointer template type.  
+ <a href="classrs_1_1scriptobject_1_1ScriptItemPtr.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="script__item__ptr_8h_source.html">script_item_ptr.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -112,55 +117,368 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af9e4c433e54a4a1c75e91d36ce236aef"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9e4c433e54a4a1c75e91d36ce236aef"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ScriptItemPtr</b> (<a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt; T &gt; &amp;&amp;rhs)</td></tr>
 <tr class="separator:af9e4c433e54a4a1c75e91d36ce236aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a086a3e49aa7ae7d59937462339fbb19b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a086a3e49aa7ae7d59937462339fbb19b"></a>
-T *&#160;</td><td class="memItemRight" valign="bottom"><b>get</b> () const noexcept</td></tr>
+<tr class="memitem:a086a3e49aa7ae7d59937462339fbb19b"><td class="memItemLeft" align="right" valign="top">T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html#a086a3e49aa7ae7d59937462339fbb19b">get</a> () const noexcept</td></tr>
+<tr class="memdesc:a086a3e49aa7ae7d59937462339fbb19b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a pointer to the counted instance.  <a href="#a086a3e49aa7ae7d59937462339fbb19b">More...</a><br /></td></tr>
 <tr class="separator:a086a3e49aa7ae7d59937462339fbb19b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa262929bc4cc74bed0cd66373b2244ee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa262929bc4cc74bed0cd66373b2244ee"></a>
-T::allocated_type *&#160;</td><td class="memItemRight" valign="bottom"><b>getRawPtr</b> () const noexcept</td></tr>
+<tr class="memitem:aa262929bc4cc74bed0cd66373b2244ee"><td class="memItemLeft" align="right" valign="top">T::allocated_type *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html#aa262929bc4cc74bed0cd66373b2244ee">getRawPtr</a> () const noexcept</td></tr>
+<tr class="memdesc:aa262929bc4cc74bed0cd66373b2244ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a pointer to the contained type instance.  <a href="#aa262929bc4cc74bed0cd66373b2244ee">More...</a><br /></td></tr>
 <tr class="separator:aa262929bc4cc74bed0cd66373b2244ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac11e193bf1046c1966e9253645d40d0a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac11e193bf1046c1966e9253645d40d0a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>reset</b> () noexcept</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html#ac11e193bf1046c1966e9253645d40d0a">reset</a> () noexcept</td></tr>
+<tr class="memdesc:ac11e193bf1046c1966e9253645d40d0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets (releases) the reference count this instance holds on the counted instance. <br /></td></tr>
 <tr class="separator:ac11e193bf1046c1966e9253645d40d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea20324f045e5f264cb785d9ec1350cb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea20324f045e5f264cb785d9ec1350cb"></a>
-<a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtrBase.html">ScriptItemPtrBase</a>&lt; T &gt;::count_type&#160;</td><td class="memItemRight" valign="bottom"><b>count</b> () const noexcept</td></tr>
+<tr class="memitem:aea20324f045e5f264cb785d9ec1350cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtrBase.html">ScriptItemPtrBase</a>&lt; T &gt;::count_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html#aea20324f045e5f264cb785d9ec1350cb">count</a> () const noexcept</td></tr>
+<tr class="memdesc:aea20324f045e5f264cb785d9ec1350cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of references to the counted instance.  <a href="#aea20324f045e5f264cb785d9ec1350cb">More...</a><br /></td></tr>
 <tr class="separator:aea20324f045e5f264cb785d9ec1350cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94047d41b3ca55fc659670055c9df184"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a94047d41b3ca55fc659670055c9df184"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt; T &gt; &amp;&amp;rhs) noexcept</td></tr>
+<tr class="memitem:a94047d41b3ca55fc659670055c9df184"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html#a94047d41b3ca55fc659670055c9df184">operator=</a> (<a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt; T &gt; &amp;&amp;rhs) noexcept</td></tr>
+<tr class="memdesc:a94047d41b3ca55fc659670055c9df184"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the rhs instance to the lhs instance release any lhs count currently held.  <a href="#a94047d41b3ca55fc659670055c9df184">More...</a><br /></td></tr>
 <tr class="separator:a94047d41b3ca55fc659670055c9df184"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81e4e14a9428cb1cd23c5172c92e8aa1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81e4e14a9428cb1cd23c5172c92e8aa1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt; T &gt; &amp;rhs) noexcept</td></tr>
+<tr class="memitem:a81e4e14a9428cb1cd23c5172c92e8aa1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html#a81e4e14a9428cb1cd23c5172c92e8aa1">operator=</a> (const <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt; T &gt; &amp;rhs) noexcept</td></tr>
+<tr class="memdesc:a81e4e14a9428cb1cd23c5172c92e8aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the counted reference to another instance releasing the reference to the previously held instance.  <a href="#a81e4e14a9428cb1cd23c5172c92e8aa1">More...</a><br /></td></tr>
 <tr class="separator:a81e4e14a9428cb1cd23c5172c92e8aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39d74d4b6bcdf831d275441083a8ba74"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39d74d4b6bcdf831d275441083a8ba74"></a>
-T &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator*</b> () const </td></tr>
+T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html#a39d74d4b6bcdf831d275441083a8ba74">operator*</a> () const </td></tr>
+<tr class="memdesc:a39d74d4b6bcdf831d275441083a8ba74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the counted instance. <br /></td></tr>
 <tr class="separator:a39d74d4b6bcdf831d275441083a8ba74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75e4b1dc33503e2d9c22c0438b637480"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a75e4b1dc33503e2d9c22c0438b637480"></a>
-T *&#160;</td><td class="memItemRight" valign="bottom"><b>operator-&gt;</b> () const noexcept</td></tr>
+T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html#a75e4b1dc33503e2d9c22c0438b637480">operator-&gt;</a> () const noexcept</td></tr>
+<tr class="memdesc:a75e4b1dc33503e2d9c22c0438b637480"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the counted instance on which members can be referenced easily. <br /></td></tr>
 <tr class="separator:a75e4b1dc33503e2d9c22c0438b637480"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a025a4d16a184c97186836885aaa7bcfa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a025a4d16a184c97186836885aaa7bcfa"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!</b> () const noexcept</td></tr>
+<tr class="memitem:a025a4d16a184c97186836885aaa7bcfa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html#a025a4d16a184c97186836885aaa7bcfa">operator!</a> () const noexcept</td></tr>
+<tr class="memdesc:a025a4d16a184c97186836885aaa7bcfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests for pointer validity.  <a href="#a025a4d16a184c97186836885aaa7bcfa">More...</a><br /></td></tr>
 <tr class="separator:a025a4d16a184c97186836885aaa7bcfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50bdaac0241be53e4141c47854b64154"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a50bdaac0241be53e4141c47854b64154"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>swap</b> (<a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt; T &gt; &amp;rhs) noexcept</td></tr>
+<tr class="memitem:a50bdaac0241be53e4141c47854b64154"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html#a50bdaac0241be53e4141c47854b64154">swap</a> (<a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt; T &gt; &amp;rhs) noexcept</td></tr>
+<tr class="memdesc:a50bdaac0241be53e4141c47854b64154"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps two counted pointers.  <a href="#a50bdaac0241be53e4141c47854b64154">More...</a><br /></td></tr>
 <tr class="separator:a50bdaac0241be53e4141c47854b64154"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:ac74e4af8d79272c16527c847ffc89971"><td class="memTemplParams" colspan="2"><a class="anchor" id="ac74e4af8d79272c16527c847ffc89971"></a>
-template&lt;typename TT , typename... Args&gt; </td></tr>
-<tr class="memitem:ac74e4af8d79272c16527c847ffc89971"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt; TT &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>make_script_item_ptr</b> (Args &amp;&amp;...args)</td></tr>
+<tr class="memitem:ac74e4af8d79272c16527c847ffc89971"><td class="memTemplParams" colspan="2">template&lt;typename TT , typename... Args&gt; </td></tr>
+<tr class="memitem:ac74e4af8d79272c16527c847ffc89971"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt; TT &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html#ac74e4af8d79272c16527c847ffc89971">make_script_item_ptr</a> (Args &amp;&amp;...args)</td></tr>
+<tr class="memdesc:ac74e4af8d79272c16527c847ffc89971"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a ScriptItemPtr&lt;T&gt; much like std::make_shared would.  <a href="#ac74e4af8d79272c16527c847ffc89971">More...</a><br /></td></tr>
 <tr class="separator:ac74e4af8d79272c16527c847ffc89971"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a1ac290e14377aeb8194e0c4fa57b48"><td class="memTemplParams" colspan="2"><a class="anchor" id="a3a1ac290e14377aeb8194e0c4fa57b48"></a>
-template&lt;typename TT , typename... Args&gt; </td></tr>
-<tr class="memitem:a3a1ac290e14377aeb8194e0c4fa57b48"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt; TT &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>make_sized_script_item_ptr</b> (size_t, Args &amp;&amp;...args)</td></tr>
+<tr class="memitem:a3a1ac290e14377aeb8194e0c4fa57b48"><td class="memTemplParams" colspan="2">template&lt;typename TT , typename... Args&gt; </td></tr>
+<tr class="memitem:a3a1ac290e14377aeb8194e0c4fa57b48"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt; TT &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html#a3a1ac290e14377aeb8194e0c4fa57b48">make_sized_script_item_ptr</a> (size_t, Args &amp;&amp;...args)</td></tr>
+<tr class="memdesc:a3a1ac290e14377aeb8194e0c4fa57b48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a ScriptItemPtr&lt;T&gt; much like std::make_shared would, however in this case we give the allocator a fixed size buffer for the new object.  <a href="#a3a1ac290e14377aeb8194e0c4fa57b48">More...</a><br /></td></tr>
 <tr class="separator:a3a1ac290e14377aeb8194e0c4fa57b48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class rs::scriptobject::ScriptItemPtr&lt; T &gt;</h3>
+
+<p>A (partially) thread-safe reference counted pointer template type. </p>
+<dl class="section remark"><dt>Remarks</dt><dd>The reference counted instance is guaranteed to be thread safe however referencing pointer instances are not safe. For example a <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html" title="A (partially) thread-safe reference counted pointer template type. ">ScriptItemPtr</a> instance <em>x</em> cannot be shared between threads if any of the state change methods are used (reset, swap, etc) since the pointer to the counted instance is not itself thread-safe. Two threads can however share <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html" title="A (partially) thread-safe reference counted pointer template type. ">ScriptItemPtr</a> instances <em>x</em> and <em>y</em> which point to the same counted instance if they are 'owned' by different threads. </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtrBase.html" title="A derivable template type containing methods to operate on reference counted types. ">ScriptItemPtrBase</a> </dd>
+<dd>
+<a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtrCountedBase.html" title="A derivable template type containing a thread-safe reference counter. ">ScriptItemPtrCountedBase</a> </dd></dl>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="aea20324f045e5f264cb785d9ec1350cb"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtrBase.html">ScriptItemPtrBase</a>&lt;T&gt;::count_type <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">rs::scriptobject::ScriptItemPtr</a>&lt; T &gt;::count </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the number of references to the counted instance. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of active references </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a086a3e49aa7ae7d59937462339fbb19b"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T* <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">rs::scriptobject::ScriptItemPtr</a>&lt; T &gt;::get </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a pointer to the counted instance. </p>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the counted instance </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aa262929bc4cc74bed0cd66373b2244ee"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T::allocated_type* <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">rs::scriptobject::ScriptItemPtr</a>&lt; T &gt;::getRawPtr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a pointer to the contained type instance. </p>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the contained instance </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a025a4d16a184c97186836885aaa7bcfa"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">rs::scriptobject::ScriptItemPtr</a>&lt; T &gt;::operator! </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Tests for pointer validity. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if the pointer is valid, false otherwise </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a94047d41b3ca55fc659670055c9df184"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">rs::scriptobject::ScriptItemPtr</a>&lt; T &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt; T &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Moves the rhs instance to the lhs instance release any lhs count currently held. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>The instance to assign to the current instance </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a81e4e14a9428cb1cd23c5172c92e8aa1"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">rs::scriptobject::ScriptItemPtr</a>&lt; T &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assigns the counted reference to another instance releasing the reference to the previously held instance. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td>The instance to assign to the current instance </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a50bdaac0241be53e4141c47854b64154"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">rs::scriptobject::ScriptItemPtr</a>&lt; T &gt;::swap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Swaps two counted pointers. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rhs</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a class="anchor" id="ac74e4af8d79272c16527c847ffc89971"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<div class="memtemplate">
+template&lt;typename TT , typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt;TT&gt; make_script_item_ptr </td>
+          <td>(</td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a ScriptItemPtr&lt;T&gt; much like std::make_shared would. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td>The arguments to be forwarded to the constructor of T </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A counted pointer </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a3a1ac290e14377aeb8194e0c4fa57b48"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<div class="memtemplate">
+template&lt;typename TT , typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classrs_1_1scriptobject_1_1ScriptItemPtr.html">ScriptItemPtr</a>&lt;TT&gt; make_sized_script_item_ptr </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a ScriptItemPtr&lt;T&gt; much like std::make_shared would, however in this case we give the allocator a fixed size buffer for the new object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">size</td><td>The size of the buffer to allocate for the new counted T </td></tr>
+    <tr><td class="paramname">args</td><td>The arguments to be forwarded to the constructor of T </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A counted pointer </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/libscriptobject/<a class="el" href="script__item__ptr_8h_source.html">script_item_ptr.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Fri Nov 4 2016 17:51:58 for libscriptobject by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 7 2016 11:25:49 for libscriptobject by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

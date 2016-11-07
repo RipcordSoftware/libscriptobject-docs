@@ -1,7 +1,7 @@
 <map id="src/libscriptobject/script_array_source.h" name="src/libscriptobject/script_array_source.h">
-<area shape="rect" id="node2" href="$script__array__factory_8h_source.html" title="src/libscriptobject\l/script_array_factory.h" alt="" coords="5,102,157,143"/>
-<area shape="rect" id="node4" href="$script__array__vector__source_8h_source.html" title="src/libscriptobject\l/script_array_vector\l_source.h" alt="" coords="182,95,319,151"/>
-<area shape="rect" id="node5" href="$script__array__json__source_8h_source.html" title="src/libscriptobject\l_gason/script_array\l_json_source.h" alt="" coords="344,95,480,151"/>
-<area shape="rect" id="node6" href="$script__array__msgpack__source_8h_source.html" title="src/libscriptobject\l_msgpack/script_array\l_msgpack_source.h" alt="" coords="504,95,659,151"/>
+<area shape="rect" id="node2" href="$script__array__factory_8h.html" title="Declares ScriptArrayFactory. " alt="" coords="5,102,157,143"/>
+<area shape="rect" id="node4" href="$script__array__vector__source_8h.html" title="Declares ArrayVector and ScriptArrayVectorSource, utility classes which make it easy to create arrays..." alt="" coords="182,95,319,151"/>
+<area shape="rect" id="node5" href="$script__array__json__source_8h.html" title="Declares ScriptArrayJsonSource. " alt="" coords="344,95,480,151"/>
+<area shape="rect" id="node6" href="$script__array__msgpack__source_8h.html" title="Declares ScriptArrayMsgpackSource. " alt="" coords="504,95,659,151"/>
 <area shape="rect" id="node3" href="$libscriptobject_8h.html" title="The main header file for clients wishing to utilize libscriptobject. " alt="" coords="19,199,143,240"/>
 </map>

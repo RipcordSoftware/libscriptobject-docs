@@ -1,5 +1,5 @@
 <map id="rs::scriptobject::ScriptArraySource" name="rs::scriptobject::ScriptArraySource">
-<area shape="rect" id="node2" href="$classrs_1_1scriptobject_1_1ScriptArrayJsonSource.html" title="rs::scriptobject::Script\lArrayJsonSource" alt="" coords="216,5,367,47"/>
-<area shape="rect" id="node3" href="$classrs_1_1scriptobject_1_1ScriptArrayMsgpackSource.html" title="rs::scriptobject::Script\lArrayMsgpackSource" alt="" coords="216,71,367,112"/>
-<area shape="rect" id="node4" href="$classrs_1_1scriptobject_1_1utils_1_1ScriptArrayVectorSource.html" title="rs::scriptobject::utils\l::ScriptArrayVectorSource" alt="" coords="204,136,379,177"/>
+<area shape="rect" id="node2" href="$classrs_1_1scriptobject_1_1ScriptArrayJsonSource.html" title="A source for a scriptable array, read from a JSON character stream. " alt="" coords="216,5,367,47"/>
+<area shape="rect" id="node3" href="$classrs_1_1scriptobject_1_1ScriptArrayMsgpackSource.html" title="A source for a scriptable array, read from a msgpack character stream. " alt="" coords="216,71,367,112"/>
+<area shape="rect" id="node4" href="$classrs_1_1scriptobject_1_1utils_1_1ScriptArrayVectorSource.html" title="A type declaring a source for a scriptable array. " alt="" coords="204,136,379,177"/>
 </map>

@@ -100,6 +100,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptArrayVectorSource.html">ScriptArrayVectorSource</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type declaring a source for a scriptable array.  <a href="classrs_1_1scriptobject_1_1utils_1_1ScriptArrayVectorSource.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html">ScriptObjectVectorSource</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type representing an object source stored in a vector.  <a href="classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#details">More...</a><br /></td></tr>
@@ -110,20 +111,50 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a4257935c9d227d8a6bc089b16ea2d744"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4257935c9d227d8a6bc089b16ea2d744"></a>
-typedef std::vector&lt; <a class="el" href="classrs_1_1scriptobject_1_1utils_1_1VectorValue.html">VectorValue</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>ArrayVector</b></td></tr>
-<tr class="separator:a4257935c9d227d8a6bc089b16ea2d744"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08899c3f9ce3230d82e037aa0ba0a63b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a08899c3f9ce3230d82e037aa0ba0a63b"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacers_1_1scriptobject_1_1utils.html#a08899c3f9ce3230d82e037aa0ba0a63b">ObjectVector</a> = std::vector&lt; std::pair&lt; std::string, <a class="el" href="classrs_1_1scriptobject_1_1utils_1_1VectorValue.html">VectorValue</a> &gt;&gt;</td></tr>
-<tr class="memdesc:a08899c3f9ce3230d82e037aa0ba0a63b"><td class="mdescLeft">&#160;</td><td class="mdescRight">A vector containing key value pairs of field name and values. <br /></td></tr>
+<tr class="memitem:a90aac1ede8011a0655d7557dfdf610f6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacers_1_1scriptobject_1_1utils.html#a90aac1ede8011a0655d7557dfdf610f6">ArrayVector</a> = std::vector&lt; <a class="el" href="classrs_1_1scriptobject_1_1utils_1_1VectorValue.html">VectorValue</a> &gt;</td></tr>
+<tr class="memdesc:a90aac1ede8011a0655d7557dfdf610f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">A std::vector based type for storing script object values.  <a href="#a90aac1ede8011a0655d7557dfdf610f6">More...</a><br /></td></tr>
+<tr class="separator:a90aac1ede8011a0655d7557dfdf610f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08899c3f9ce3230d82e037aa0ba0a63b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacers_1_1scriptobject_1_1utils.html#a08899c3f9ce3230d82e037aa0ba0a63b">ObjectVector</a> = std::vector&lt; std::pair&lt; std::string, <a class="el" href="classrs_1_1scriptobject_1_1utils_1_1VectorValue.html">VectorValue</a> &gt;&gt;</td></tr>
+<tr class="memdesc:a08899c3f9ce3230d82e037aa0ba0a63b"><td class="mdescLeft">&#160;</td><td class="mdescRight">A std::vector containing key value pairs of field name and values.  <a href="#a08899c3f9ce3230d82e037aa0ba0a63b">More...</a><br /></td></tr>
 <tr class="separator:a08899c3f9ce3230d82e037aa0ba0a63b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Utility (helper) types reside in this namespace. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="a90aac1ede8011a0655d7557dfdf610f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacers_1_1scriptobject_1_1utils.html#a90aac1ede8011a0655d7557dfdf610f6">rs::scriptobject::utils::ArrayVector</a> = typedef std::vector&lt;<a class="el" href="classrs_1_1scriptobject_1_1utils_1_1VectorValue.html">VectorValue</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A std::vector based type for storing script object values. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1VectorValue.html" title="A simple sciptable value type capable of containing any ScriptObjectType typed field. ">VectorValue</a> </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a08899c3f9ce3230d82e037aa0ba0a63b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacers_1_1scriptobject_1_1utils.html#a08899c3f9ce3230d82e037aa0ba0a63b">rs::scriptobject::utils::ObjectVector</a> = typedef std::vector&lt;std::pair&lt;std::string, <a class="el" href="classrs_1_1scriptobject_1_1utils_1_1VectorValue.html">VectorValue</a>&gt;&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A std::vector containing key value pairs of field name and values. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classrs_1_1scriptobject_1_1utils_1_1VectorValue.html" title="A simple sciptable value type capable of containing any ScriptObjectType typed field. ">VectorValue</a> </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 7 2016 11:25:49 for libscriptobject by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 7 2016 23:15:40 for libscriptobject by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

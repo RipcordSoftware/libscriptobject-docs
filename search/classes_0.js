@@ -17,7 +17,6 @@ var searchData=
   ['scriptobjectdefinition',['ScriptObjectDefinition',['../classrs_1_1scriptobject_1_1ScriptObjectDefinition.html',1,'rs::scriptobject']]],
   ['scriptobjectexception',['ScriptObjectException',['../classrs_1_1scriptobject_1_1ScriptObjectException.html',1,'rs::scriptobject']]],
   ['scriptobjectfactory',['ScriptObjectFactory',['../classrs_1_1scriptobject_1_1ScriptObjectFactory.html',1,'rs::scriptobject']]],
-  ['scriptobjectheader',['ScriptObjectHeader',['../structrs_1_1scriptobject_1_1ScriptObjectHeader.html',1,'rs::scriptobject']]],
   ['scriptobjectjsonsource',['ScriptObjectJsonSource',['../classrs_1_1scriptobject_1_1ScriptObjectJsonSource.html',1,'rs::scriptobject']]],
   ['scriptobjectjsonsourceparseexception',['ScriptObjectJsonSourceParseException',['../classrs_1_1scriptobject_1_1ScriptObjectJsonSourceParseException.html',1,'rs::scriptobject']]],
   ['scriptobjectkey',['ScriptObjectKey',['../structrs_1_1scriptobject_1_1ScriptObjectKey.html',1,'rs::scriptobject']]],

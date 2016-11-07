@@ -1,7 +1,7 @@
 <map id="src/libscriptobject/script_object_exceptions.h" name="src/libscriptobject/script_object_exceptions.h">
 <area shape="rect" id="node2" href="$libscriptobject_8h.html" title="The main header file for clients wishing to utilize libscriptobject. " alt="" coords="5,102,129,143"/>
-<area shape="rect" id="node3" href="$script__object__json__source_8h_source.html" title="src/libscriptobject\l_gason/script_object\l_json_source.h" alt="" coords="153,95,296,151"/>
-<area shape="rect" id="node5" href="$script__object__msgpack__source_8h_source.html" title="src/libscriptobject\l_msgpack/script_object\l_msgpack_source.h" alt="" coords="323,95,483,151"/>
-<area shape="rect" id="node4" href="$libscriptobject__gason_8h_source.html" title="src/libscriptobject\l_gason/libscriptobject\l_gason.h" alt="" coords="149,199,297,255"/>
-<area shape="rect" id="node6" href="$libscriptobject__msgpack_8h_source.html" title="src/libscriptobject\l_msgpack/libscriptobject\l_msgpack.h" alt="" coords="321,199,488,255"/>
+<area shape="rect" id="node3" href="$script__object__json__source_8h.html" title="Declares ScriptObjectJsonSourceParseException and ScriptObjectJsonSource. " alt="" coords="153,95,296,151"/>
+<area shape="rect" id="node5" href="$script__object__msgpack__source_8h.html" title="Declares ScriptObjectMsgpackSourceParseException and ScriptObjectMsgpackSource. " alt="" coords="323,95,483,151"/>
+<area shape="rect" id="node4" href="$libscriptobject__gason_8h.html" title="The main header file to clients wishing to use libscriptobjects JSON sources. " alt="" coords="149,199,297,255"/>
+<area shape="rect" id="node6" href="$libscriptobject__msgpack_8h.html" title="The main header file to clients wishing to use libscriptobjects msgpack sources. " alt="" coords="321,199,488,255"/>
 </map>

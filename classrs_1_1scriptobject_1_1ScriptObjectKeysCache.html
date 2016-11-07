@@ -97,6 +97,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="title">rs::scriptobject::ScriptObjectKeysCache Class Reference<span class="mlabels"><span class="mlabel">final</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>A type which caches script object keys based on their hashes.  
+ <a href="classrs_1_1scriptobject_1_1ScriptObjectKeysCache.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="script__object__keys__cache_8h_source.html">script_object_keys_cache.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -106,26 +111,95 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a27ba1addd6fbd40f01e604befac5fc46"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27ba1addd6fbd40f01e604befac5fc46"></a>
-static ScriptObjectKeysPtr&#160;</td><td class="memItemRight" valign="bottom"><b>AddObjectKeys</b> (const ScriptObjectKeysPtr &amp;keys)</td></tr>
+<tr class="memitem:a27ba1addd6fbd40f01e604befac5fc46"><td class="memItemLeft" align="right" valign="top">static ScriptObjectKeysPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectKeysCache.html#a27ba1addd6fbd40f01e604befac5fc46">AddObjectKeys</a> (const ScriptObjectKeysPtr &amp;<a class="el" href="script__object__keys_8h.html#ad86b1532845ee7a82de077dd4a944513">keys</a>)</td></tr>
+<tr class="memdesc:a27ba1addd6fbd40f01e604befac5fc46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds an object keys instance to the cache.  <a href="#a27ba1addd6fbd40f01e604befac5fc46">More...</a><br /></td></tr>
 <tr class="separator:a27ba1addd6fbd40f01e604befac5fc46"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37ee299a2df944776705aa2f36f5093d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a37ee299a2df944776705aa2f36f5093d"></a>
-static ScriptObjectKeysPtr&#160;</td><td class="memItemRight" valign="bottom"><b>GetObjectKeys</b> (const ScriptObjectKeysPtr &amp;keys)</td></tr>
+static ScriptObjectKeysPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectKeysCache.html#a37ee299a2df944776705aa2f36f5093d">GetObjectKeys</a> (const ScriptObjectKeysPtr &amp;<a class="el" href="script__object__keys_8h.html#ad86b1532845ee7a82de077dd4a944513">keys</a>)</td></tr>
+<tr class="memdesc:a37ee299a2df944776705aa2f36f5093d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets an matching keys instance if it already exists in the cache. <br /></td></tr>
 <tr class="separator:a37ee299a2df944776705aa2f36f5093d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe6228fc1fa4ab2d95f7a745069096a1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abe6228fc1fa4ab2d95f7a745069096a1"></a>
-static std::size_t&#160;</td><td class="memItemRight" valign="bottom"><b>getCount</b> ()</td></tr>
+<tr class="memitem:abe6228fc1fa4ab2d95f7a745069096a1"><td class="memItemLeft" align="right" valign="top">static std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectKeysCache.html#abe6228fc1fa4ab2d95f7a745069096a1">getCount</a> ()</td></tr>
+<tr class="memdesc:abe6228fc1fa4ab2d95f7a745069096a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the number of keys in the cache.  <a href="#abe6228fc1fa4ab2d95f7a745069096a1">More...</a><br /></td></tr>
 <tr class="separator:abe6228fc1fa4ab2d95f7a745069096a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bc54aa530aaeb9d05c6c85a3ff4887b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2bc54aa530aaeb9d05c6c85a3ff4887b"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>Flush</b> ()</td></tr>
+static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrs_1_1scriptobject_1_1ScriptObjectKeysCache.html#a2bc54aa530aaeb9d05c6c85a3ff4887b">Flush</a> ()</td></tr>
+<tr class="memdesc:a2bc54aa530aaeb9d05c6c85a3ff4887b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flushes (clears) the contents of the cache. <br /></td></tr>
 <tr class="separator:a2bc54aa530aaeb9d05c6c85a3ff4887b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>A type which caches script object keys based on their hashes. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="structrs_1_1scriptobject_1_1ScriptObjectKeys.html" title="A collection of keys, allocated from a single memory block @ note This structure is designed to be ve...">ScriptObjectKeys</a> </dd>
+<dd>
+<a class="el" href="structrs_1_1scriptobject_1_1ScriptObjectKey.html" title="A key which contains the field type, raw index and offset. ">ScriptObjectKey</a> </dd>
+<dd>
+<a class="el" href="namespacers_1_1scriptobject.html#a00f97bdb4942839005d7a4dc49c935fc" title="An alias type containing a hash for a script object. ">ScriptObjectHash</a> </dd></dl>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a27ba1addd6fbd40f01e604befac5fc46"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ScriptObjectKeysPtr rs::scriptobject::ScriptObjectKeysCache::AddObjectKeys </td>
+          <td>(</td>
+          <td class="paramtype">const ScriptObjectKeysPtr &amp;&#160;</td>
+          <td class="paramname"><em>keys</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds an object keys instance to the cache. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">keys</td><td>A keys instance to add </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The added instance </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abe6228fc1fa4ab2d95f7a745069096a1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::size_t rs::scriptobject::ScriptObjectKeysCache::getCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the number of keys in the cache. </p>
+<dl class="section return"><dt>Returns</dt><dd>The number of keys in the cache </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>src/libscriptobject/<a class="el" href="script__object__keys__cache_8h_source.html">script_object_keys_cache.h</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 7 2016 11:25:49 for libscriptobject by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Mon Nov 7 2016 23:15:40 for libscriptobject by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.8
 </small></address>

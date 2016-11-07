@@ -1,10 +1,10 @@
 <map id="src/libscriptobject/script_object_source.h" name="src/libscriptobject/script_object_source.h">
-<area shape="rect" id="node2" href="$script__object__factory_8h_source.html" title="src/libscriptobject\l/script_object_factory.h" alt="" coords="5,102,164,143"/>
+<area shape="rect" id="node2" href="$script__object__factory_8h.html" title="Declares ScriptObjectFactory. " alt="" coords="5,102,164,143"/>
 <area shape="rect" id="node4" href="$script__object__vector__source_8h.html" title="Declares VectorValue and ScriptObjectVectorSource, utility classes which make it easy to create objec..." alt="" coords="188,95,331,151"/>
-<area shape="rect" id="node6" href="$script__object__json__source_8h_source.html" title="src/libscriptobject\l_gason/script_object\l_json_source.h" alt="" coords="355,95,497,151"/>
-<area shape="rect" id="node8" href="$script__object__msgpack__source_8h_source.html" title="src/libscriptobject\l_msgpack/script_object\l_msgpack_source.h" alt="" coords="525,95,685,151"/>
+<area shape="rect" id="node6" href="$script__object__json__source_8h.html" title="Declares ScriptObjectJsonSourceParseException and ScriptObjectJsonSource. " alt="" coords="355,95,497,151"/>
+<area shape="rect" id="node8" href="$script__object__msgpack__source_8h.html" title="Declares ScriptObjectMsgpackSourceParseException and ScriptObjectMsgpackSource. " alt="" coords="525,95,685,151"/>
 <area shape="rect" id="node3" href="$libscriptobject_8h.html" title="The main header file for clients wishing to utilize libscriptobject. " alt="" coords="23,206,147,247"/>
-<area shape="rect" id="node5" href="$script__array__vector__source_8h_source.html" title="src/libscriptobject\l/script_array_vector\l_source.h" alt="" coords="191,199,328,255"/>
-<area shape="rect" id="node7" href="$libscriptobject__gason_8h_source.html" title="src/libscriptobject\l_gason/libscriptobject\l_gason.h" alt="" coords="352,199,500,255"/>
-<area shape="rect" id="node9" href="$libscriptobject__msgpack_8h_source.html" title="src/libscriptobject\l_msgpack/libscriptobject\l_msgpack.h" alt="" coords="524,199,691,255"/>
+<area shape="rect" id="node5" href="$script__array__vector__source_8h.html" title="Declares ArrayVector and ScriptArrayVectorSource, utility classes which make it easy to create arrays..." alt="" coords="191,199,328,255"/>
+<area shape="rect" id="node7" href="$libscriptobject__gason_8h.html" title="The main header file to clients wishing to use libscriptobjects JSON sources. " alt="" coords="352,199,500,255"/>
+<area shape="rect" id="node9" href="$libscriptobject__msgpack_8h.html" title="The main header file to clients wishing to use libscriptobjects msgpack sources. " alt="" coords="524,199,691,255"/>
 </map>

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['name',['name',['../classrs_1_1scriptobject_1_1ScriptObjectDefinition.html#ab450e39e3d4a26601341087f8395baad',1,'rs::scriptobject::ScriptObjectDefinition::name()'],['../classrs_1_1scriptobject_1_1test_1_1VectorKeysDefn.html#a7e6b72888fb5f976ab3c2b34a141cc0b',1,'rs::scriptobject::test::VectorKeysDefn::name()'],['../classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#a880a069247f53d272fe887303c8ed163',1,'rs::scriptobject::utils::ScriptObjectVectorSource::name()'],['../classrs_1_1scriptobject_1_1ScriptObjectJsonSource.html#a2a2977524274a0543ddbe6f41b2ed725',1,'rs::scriptobject::ScriptObjectJsonSource::name()'],['../classrs_1_1scriptobject_1_1ScriptObjectMsgpackSource.html#af5c9f3d7f3a12af3342e219a5204c4e5',1,'rs::scriptobject::ScriptObjectMsgpackSource::name()']]]
+  ['make_5fscript_5fitem_5fptr',['make_script_item_ptr',['../namespacers_1_1scriptobject.html#a7411985e07ac0b5d6b691ba1213b065a',1,'rs::scriptobject']]],
+  ['make_5fsized_5fscript_5fitem_5fptr',['make_sized_script_item_ptr',['../namespacers_1_1scriptobject.html#a4a6b3a769800b48389c1274c34f9cc01',1,'rs::scriptobject']]],
+  ['merge',['Merge',['../classrs_1_1scriptobject_1_1ScriptObject.html#aaaf2cff0ac669749c9c6d7e511b8813b',1,'rs::scriptobject::ScriptObject']]]
 ];

@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['operator_21',['operator!',['../classrs_1_1scriptobject_1_1ScriptItemPtr.html#a025a4d16a184c97186836885aaa7bcfa',1,'rs::scriptobject::ScriptItemPtr']]],
-  ['operator_2a',['operator*',['../classrs_1_1scriptobject_1_1ScriptItemPtr.html#a39d74d4b6bcdf831d275441083a8ba74',1,'rs::scriptobject::ScriptItemPtr']]],
-  ['operator_2d_3e',['operator-&gt;',['../classrs_1_1scriptobject_1_1ScriptItemPtr.html#a75e4b1dc33503e2d9c22c0438b637480',1,'rs::scriptobject::ScriptItemPtr']]],
-  ['operator_3d',['operator=',['../classrs_1_1scriptobject_1_1ScriptItemPtr.html#a94047d41b3ca55fc659670055c9df184',1,'rs::scriptobject::ScriptItemPtr::operator=(ScriptItemPtr&lt; T &gt; &amp;&amp;rhs) noexcept'],['../classrs_1_1scriptobject_1_1ScriptItemPtr.html#a81e4e14a9428cb1cd23c5172c92e8aa1',1,'rs::scriptobject::ScriptItemPtr::operator=(const ScriptItemPtr&lt; T &gt; &amp;rhs) noexcept']]]
+  ['name',['name',['../classrs_1_1scriptobject_1_1ScriptObjectDefinition.html#ab450e39e3d4a26601341087f8395baad',1,'rs::scriptobject::ScriptObjectDefinition::name()'],['../classrs_1_1scriptobject_1_1test_1_1VectorKeysDefn.html#a7e6b72888fb5f976ab3c2b34a141cc0b',1,'rs::scriptobject::test::VectorKeysDefn::name()'],['../classrs_1_1scriptobject_1_1utils_1_1ScriptObjectVectorSource.html#a880a069247f53d272fe887303c8ed163',1,'rs::scriptobject::utils::ScriptObjectVectorSource::name()'],['../classrs_1_1scriptobject_1_1ScriptObjectJsonSource.html#a2a2977524274a0543ddbe6f41b2ed725',1,'rs::scriptobject::ScriptObjectJsonSource::name()'],['../classrs_1_1scriptobject_1_1ScriptObjectMsgpackSource.html#af5c9f3d7f3a12af3342e219a5204c4e5',1,'rs::scriptobject::ScriptObjectMsgpackSource::name()']]]
 ];
